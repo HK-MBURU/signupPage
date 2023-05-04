@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    width: 100%;
+    
+}
+a {
+    text-decoration: none;
+}
+
+form{
+    text-align: center;
+    width: 650px;
+    margin: 50px auto;
+    
+}
+span{
+    color: red;
+}
+.main-container{
+    text-align: left;
+    padding: 20px 15px;  
+
+
+} 
+
+.main-container .text-inputs input{
+border-radius: 10px;
+width: 100%;
+padding: 5px 15px;
+border:darkgray solid 0.1px;
+margin-bottom: 15px;
+/* height: 25px; */
+/* outline:0dvb; */
+} 
+
+.main-container .text-inputs label{
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    }
+
+#check{
+    display: inline;
+    width: fit-content;
+}
+#check_label{
+    display: inline;
+}
+.main-container .text-inputs button{
+    background-color: rgb(188, 218, 177);
+    color: white;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 10px;
+}

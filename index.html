@@ -5,12 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration Page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <form action="">
+        <h6>Join GitHub</h6>
+        <h2>First, let's create your user account</h2>
         <div class="main-container">
-            <h6>Join GitHub</h6>
-            <h1>First, let's create your user account</h1>
+            
             <div class="text-inputs">
                 <label for="userName">Username <span>*</span></label>
                 <input type="text" name="userName"><br>
@@ -18,18 +20,21 @@
                 <input type="email" name="email"><br>
                 <label for="password"> Password <span>*</span></label>
                 <input type="password" name="password">
+                <p style="font-size: 14px ; font-weight:100;">
+                    Make sure it is at least 15 characters OR at least 8 characters including a number and a lowercase letter. <br> <a href="#">Learn more</a>
+                </p>
+                
+                <h4>Email preferences</h4>
+                <input type="checkbox" id="check" name="check">
+                <label id="check_label" for="check">Send me occasional product updates, announcements, and offers.</label>
+                <!-- <input type="submit" value="Create account"> -->
+                <button>Create account</button>
             </div>
-            <p>
-                Make sure it is at least 15 characters OR at least 8 characters including a number and a lowercase letter.
-            </p>
-            <a href="#">Learn more</a>
-            <h3>Email preferences</h3>
-            <input type="checkbox">
-            <p>Send me occasional product updates, announcements, and offers.</p>
-            <input type="submit" value="Create account">
+            
+            <p style="font-size: 14px; font-weight: 100;">By creating an account, you agree to the <b><a href="#">Terms of Service.</a></b> For more information about Github's  privacy practices, see the <b><a href="#">Github privacy Statement.</a></b> We'll occasionally send you account related emails.</p>
         </div>
     </form>
-    <p>By creating an account, you agree to the <b><a href="#">Terms of Service.</a></b> For more information about Github's privacy practices, see the <b><a href="#">Github privacy Statement.</a></b> We'll occasionally send you account related emails.</p>
+    
     
 </body>
 </html>
